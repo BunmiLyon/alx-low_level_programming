@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * * main: print a script
- * * Description: use printf
- * * Return: 0
- * */
+ ** main: print a script
+ ** Description: use printf
+ **return: 0
+ **/
 
 int main(void)
 {
