@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- ** main: print a script
- ** Description: use printf
- **return: 0
- **/
+ * main - Print a string
+ * Description: use printf
+ * Return: 0
+ */
 
 int main(void)
 {
-	printf("With proper grammer, but the outcome is a piece of art,\n");
-	return (0);
+		printf("with proper grammar, but the outcome is a piece of art,\n");
+			return (0);
 }
