@@ -1,19 +1,18 @@
 #include "main.h"
+
 /**
- ** print_alphabet - Entry point
- **
- ** Description: Prints lowercase alphabet
- ** Return: 0 success
- **/
+ * print_alphabet - print letters a to z
+ *
+ * Return: Always 0.
+ */
+
 void print_alphabet(void)
 {
-		char letter;
+	char i;
 
-		letter = 'a';
-		while (letter <= 'z')
-		{
-			_putchar(letter);
-			letter++;
-		}
-		_putchar('\n');
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }
