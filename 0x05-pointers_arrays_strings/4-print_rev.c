@@ -12,8 +12,10 @@ void print_rev(char *s)
 
 	if (s)
 	{
-		while (*t) ++t;
-		while (s < t--)putchar(*t);
+		while (*t)
+			++t;
+		while (s < t--)
+			putchar(*t);
 		putchar('\n');
 	}
 }
