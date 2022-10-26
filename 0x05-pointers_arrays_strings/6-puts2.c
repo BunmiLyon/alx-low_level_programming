@@ -10,12 +10,10 @@ void puts2(char *str)
 {
 	if (str)
 	{
-		do
-		{
+		do {
 			if (*str)
 				putchar(*str++);
-		}
-		while (*str++);
+		} while (*str++);
 		putchar('\n');
 	}
 }
