@@ -7,7 +7,7 @@
      * @needle: string2
       *
        * Return: pointer to start of located string2
-        */
+**/
 
 char *_strstr(char *haystack, char *needle)
 {
