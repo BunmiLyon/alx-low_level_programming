@@ -3,11 +3,9 @@
 #include <stdio.h>
 
 /**
- *
  * main - Prints last digit of variable n
  *
  * Return: Always (0)
- *
  */
 
 int main(void)
