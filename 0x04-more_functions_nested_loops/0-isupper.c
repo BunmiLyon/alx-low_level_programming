@@ -1,15 +1,16 @@
 #include "main.h"
+
 /**
  * _isupper - check the code.
  * @c: variable to be tested
  * Return: Always 0.
  */
-
 int _isupper(int c)
 {
-	if (c == 65)
+	if ((c >= 65) && (c <= 90))
+	{
 		return (1);
-	else if (c == 97)
+	}
+	else
 		return (0);
-	return (0);
 }
