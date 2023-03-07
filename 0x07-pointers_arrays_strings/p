@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'Pointers, Arrays and Strings'
+git commit -m 'Even more Pointers, Arrays and Strings'
 git push
