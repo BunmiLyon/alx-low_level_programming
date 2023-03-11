@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'Static Libiraries'
+git commit -m 'Static Libraries'
 git push
